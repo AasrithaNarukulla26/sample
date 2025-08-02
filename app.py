@@ -7,4 +7,4 @@ def index():
 def home():
     return "homme page"
 if __name__ == "_main_":
-    app.run(host = '0.0.0',port=10000)
+    app.run(host = '0.0.0.0',port=10000)
